@@ -249,3 +249,18 @@ main section {
 /* Sponsors Section Styles Ends */
 
 /* Main Section Styles Ends */
+
+/* Footer Section Styles Starts */
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 130px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFF4E7;
+}
+
+.footer-description {
+    padding: 20px 400px;
+}
+/* Footer Section Styles Ends */
