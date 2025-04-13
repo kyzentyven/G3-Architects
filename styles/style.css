@@ -22,12 +22,30 @@
     color: #727272;
 }
 
+.bg-secondary {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.navbar, .banner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.btn-primary {
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding: 20px 25px;
+    color: white;
+    background-color: #FF900E;
+}
+
 /* Header Section Styles Starts */
 
 /* Navbar Section Styles Starts */
 .navbar {
-    max-width: 1440px;
-    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
 }
@@ -44,9 +62,27 @@
 
 .nav-link {
     text-decoration: none;
-    font-size: 18px;
     font-weight: 500;
 }
 /* Navbar Section Styles Ends */
+
+/* Banner Section Styles Starts */
+.banner-content {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.banner-profile-picture {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+/* Banner Section Styles Ends */
 
 /* Header Section Styles Ends */
