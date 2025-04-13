@@ -182,4 +182,46 @@ main section {
 }
 /* Features Section Styles Ends */
 
+/* Facts Section Styles Starts */
+.fact-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.fact-description {
+    max-width: 570px;
+}
+
+.facts-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.fact-card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.fact-number {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.fact-name {
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* Facts Section Styes Ends */
+
 /* Main Section Styles Ends */
