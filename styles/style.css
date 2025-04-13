@@ -10,6 +10,10 @@
     display: flex;
 }
 
+.text-primary {
+    color: #FF900E;
+}
+
 .dark-1 {
     color: #131313;
 }
@@ -86,3 +90,42 @@
 /* Banner Section Styles Ends */
 
 /* Header Section Styles Ends */
+
+/* Main Section Styles Starts */
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main section {
+    margin-top: 130px;
+}
+
+/* Teams Section Styles Starts */
+.teams {
+    align-items: center;
+}
+
+.team-image-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features {
+    margin-left: 130px;
+    max-width: 530px;
+}
+
+.our-feature-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#quick-list {
+    font-weight: 500;
+}
+/* Teams Section Styles Ends */
+
+/* Main Section Styles Ends */
